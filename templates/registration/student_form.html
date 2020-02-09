@@ -1,0 +1,235 @@
+{%load static%}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Innovation Stories</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'Board/assets/img/favicons/apple-touch-icon.png'%}'%}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'Board/assets/img/favicons/favicon-32x32.png'%}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'Board/assets/img/favicons/favicon-16x16.png'%}">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'Board/assets/img/favicons/favicon.ico'%}">
+    <link rel="manifest" href="{% static 'Board/assets/img/favicons/manifest.json'%}">
+    <meta name="msapplication-TileImage" content="{% static 'Board/assets/img/favicons/mstile-150x150.png'%}">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="{% static 'Board/assets/lib/prismjs/prism.css'%}" rel="stylesheet">
+    <link href="{% static 'Board/assets/lib/loaders.css/loaders.min.css'%}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="{% static 'Board/assets/lib/remodal/remodal.css'%}" rel="stylesheet">
+    <link href="{% static 'Board/assets/lib/remodal/remodal-default-theme.css'%}" rel="stylesheet">
+    <link href="{% static 'Board/assets/lib/owl.carousel/owl.carousel.css'%}" rel="stylesheet">
+    <link href="{% static 'Board/assets/lib/lightbox2/css/lightbox.css'%}" rel="stylesheet">
+    <link href="{% static 'Board/assets/lib/semantic-ui-accordion/accordion.min.css'%}" rel="stylesheet">
+    <link href="{% static 'Board/assets/lib/semantic-ui-transition/transition.min.css'%}" rel="stylesheet">
+    <link href="{% static 'Board/assets/css/theme.css'%}" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+        <div class="row no-gutters minh-100vh">
+          <div class="col-lg-9 order-1 order-lg-0 page-content pt-6 pt-lg-0">
+    
+      
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="text-center pt-5 pt-xl-7 pt-xxl-8 text-center" id="boots4-projects">
+
+              <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <div class="col-lg-10">
+                    <div class="mb-5 mb-lg-6">
+                      <h2 class="fs-2 fs-sm-3"> <span class="font-weight-medium">You are a </span> Student</h2>
+                      <hr class="hr-ornate" />
+                      <div class="row justify-content-center text-center pt-4">
+                        
+                         
+                        
+
+
+                        
+                                
+
+                               
+                                <div class="col-md-8 col-sm-10 col-12" style=" 
+                               
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                               
+                           
+                               
+                                justify-content: center;
+                                align-items: center;
+                           ">
+                                   
+                                      {% load crispy_forms_tags %}
+                                  <form method="post" novalidate>
+                                
+                                         {% csrf_token %}
+                                  <input type="hidden" name="next" value="{{ next }}">
+                                  {{ form|crispy }}
+                                  <button type="submit" class="btn btn-success" >Sign up</button>
+                                
+                            
+                                      
+                                  </form>
+                                </div>
+                            
+                           
+                      
+                      
+                      
+                              <!------------------------------------------------------------>
+                                
+                              </div>
+                      
+                              <!------------------------------------------------------------>
+                           
+
+
+
+
+
+
+
+
+
+
+
+                          
+                    <div class="sortable" data-options='{"layoutMode":"packery"}'>
+                      <div class="menu justify-content-center mb-3">
+                     
+                        
+                      </div>
+                      <div class="row no-gutters sortable-container sortable-container-gutter-fix">
+                        <a class="col-6 col-md-4 sortable-item p-2 interior" href="{% static 'Board/assets/img/projects/project-7-f.jpg' %}" data-lightbox="image" data-title="my caption">
+                          <img class="w-100 rounded" src="{% static 'Board/assets/img/projects/project-7.jpg' %}" alt="" />
+                        </a>
+                        <a class="col-6 col-md-4 sortable-item p-2 studio" href="{% static 'Board/assets/img/projects/project-11-f.jpg' %}" data-lightbox="image" data-title="my caption">
+                          <img class="w-100 rounded" src="{% static 'Board/assets/img/projects/project-11.jpg' %}" alt="" />
+                        </a>
+                        <a class="col-6 col-md-4 sortable-item p-2 photography" href="{% static 'Board/assets/img/projects/project-8-f.jpg' %}" data-lightbox="image" data-title="my caption">
+                          <img class="w-100 rounded" src="{% static 'Board/assets/img/projects/project-8.jpg' %}" alt="" />
+                        </a>
+                        <a class="col-6 col-md-4 sortable-item p-2 studio" href="{% static 'Board/assets/img/projects/project-9-f.jpg' %}" data-lightbox="image" data-title="my caption">
+                          <img class="w-100 rounded" src="{% static 'Board/assets/img/projects/project-9.jpg' %}" alt="" />
+                        </a>
+                        <a class="col-6 col-md-4 sortable-item p-2 photography" href="{% static 'Board/assets/img/projects/project-12-f.jpg' %}" data-lightbox="image" data-title="my caption">
+                          <img class="w-100 rounded" src="{% static 'Board/assets/img/projects/project-12.jpg' %}" alt="" />
+                        </a>
+                        <div class="col-6 col-md-4 sortable-item p-2 illustration">
+                          <img class="rounded w-100" src="{% static 'Board/assets/img/projects/project-13.jpg' %}" alt="" />
+                          <a class="video-modal position-absolute r-0 b-0 pr-4 pb-3" href="https://www.youtube.com/watch?v=QD7pOiZBgy0" data-start="01" data-end="75">
+                            <svg width="45" height="45" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 274.19 274.19">
+                              <defs>
+                                <style>
+                                  .play-path {
+                                    fill: none;
+                                    stroke: #ffffff;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-width: 12px;
+                                  }
+                                </style>
+                              </defs>
+                              <g>
+                                <path class="play-path" d="M208.31,29.4A129.12,129.12,0,1,1,137.1,8m-1.48,170.53L199.94,137,104.07,79.46v113"></path>
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                    
+                     
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+              <!-- end of .container-->
+
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+            lightbulb_idea
+
+            <footer class="page-footer">
+              <div class="bg-holder" style="background-image:url({% static 'Board/assets/img/sidebars/portfolio.jpg' %}");background-position: 0 27%; transform: scale(1.1);">
+              </div>
+              <!--/.bg-holder-->
+
+              <div class="row justify-content-center">
+                <div class="col-lg-10">
+                  <div class="row align-items-center">
+                    <div class="col-lg-6 text-lg-left">
+                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
+                        Copyright &copy; 2019 Innovation Stories</p>
+                    </div>
+                    <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+          <div class="col-lg-3 col-12 t-0 order-0 order-lg-1 position-absolute position-lg-relative">
+            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="{% static 'Board/assets/img/times.svg'%}" width="25" alt=""/><img class="d-lg-none" src="{% static 'Board/assets/img/times-black.svg'%}" width="18" alt=""/></span>
+              <div class="bg-holder" style="background-image:url({% static 'Board/assets/img/sidebars/portfolio.jpg' %});">
+              </div>
+              <!--/.bg-holder-->
+
+              <h1 class="page-title">Student</h1>
+            </div>
+          </div>
+        </div>
+     
+  
+     
+
+    <script src="{% static 'Board/assets/js/jquery.min.js'%}"></script>
+    <script src="{% static 'Board/assets/js/popper.min.js'%}"></script>
+    <script src="{% static 'Board/assets/js/bootstrap.js'%}"></script>
+    <script src="{% static 'Board/assets/js/plugins.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/prismjs/prism.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/loaders.css/loaders.css.js'%}"></script>
+    <script src="{% static 'Board/assets/js/stickyfill.min.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/remodal/remodal.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/jtap/jquery.tap.js'%}"></script>
+    <script src="https://www.google.com/recaptcha/api.js'%}"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL"></script>
+    <script src="{% static 'Board/assets/lib/owl.carousel/owl.carousel.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/isotope-layout/isotope.pkgd.min.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/isotope-packery/packery-mode.pkgd.min.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/lightbox2/js/lightbox.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/semantic-ui-accordion/accordion.min.js'%}"></script>
+    <script src="{% static 'Board/assets/lib/semantic-ui-transition/transition.min.js'%}"></script>
+    <script src="{% static 'Board/assets/js/theme.js'%}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARdVcREeBK44lIWnv5-iPijKqvlSAVwbw&callback=initMap" async></script>
+
+  </body>
+
+</html>

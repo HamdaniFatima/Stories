@@ -1,0 +1,577 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-09 13:42+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\innovation\settings.py:122
+msgid "English"
+msgstr ""
+
+#: .\innovation\settings.py:123
+msgid "French"
+msgstr ""
+
+#: .\innovation\settings.py:124
+msgid "Italian"
+msgstr ""
+
+#: .\innovation\settings.py:125
+msgid "Spanish"
+msgstr ""
+
+#: .\stories\templates\classroom\home.html:158
+#: .\stories\templates\classroom\students\board\comite.html:51
+#: .\stories\templates\classroom\students\board\contenu.html:51
+#: .\stories\templates\classroom\students\board\dates.html:51
+#: .\stories\templates\classroom\students\board\enjeu.html:51
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:51
+#: .\stories\templates\classroom\students\board\forms-basic.html:51
+#: .\stories\templates\classroom\students\board\index.html:51
+#: .\stories\templates\classroom\students\board\information.html:59
+#: .\stories\templates\classroom\students\board\tables-basic.html:51
+#: .\stories\templates\classroom\students\board\terms.html:51
+#: .\stories\templates\classroom\students\case_change_form.html:51
+#: .\stories\templates\classroom\students\case_delete_confirm.html:51
+#: .\stories\templates\classroom\students\case_form_display.html:51
+#: .\stories\templates\classroom\teachers\board\forms.html:52
+#: .\stories\templates\classroom\teachers\board\index.html:51
+#: .\stories\templates\classroom\teachers\board\tables-basic.html:51
+#: .\stories\templates\classroom\teachers\board\takens.html:51
+#: .\stories\templates\classroom\teachers\board\terms_teacher.html:51
+#: .\stories\templates\classroom\teachers\case_delete_confirm.html:51
+#: .\stories\templates\classroom\teachers\publier.html:51
+msgid "How it Works"
+msgstr ""
+
+#: .\stories\templates\classroom\home.html:168
+msgid "Stories"
+msgstr ""
+
+#: .\stories\templates\classroom\home.html:178
+#: .\stories\templates\classroom\introduction.html:169
+msgid "You are a Student"
+msgstr ""
+
+#: .\stories\templates\classroom\home.html:188
+msgid "You are an Experts"
+msgstr ""
+
+#: .\stories\templates\classroom\home.html:198
+msgid "About US"
+msgstr ""
+
+#: .\stories\templates\classroom\home.html:208
+msgid "Contact"
+msgstr ""
+
+#: .\stories\templates\classroom\home_cop.html:82
+#: .\stories\templates\classroom\introduction.html:126
+msgid "The World Best Innovation Stories"
+msgstr ""
+
+#: .\stories\templates\classroom\home_cop.html:83
+msgid ""
+"Find <strong>Examples </strong>and Create your own case studies <strong> </"
+"strong>  "
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:126
+msgid "Plate-forme"
+msgstr "Platform"
+
+#: .\stories\templates\classroom\introduction.html:127
+msgid ""
+"Innovation Stories is a free collaborative platform for easily creating,"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:128
+msgid "and consulting innovation case studies."
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:151
+msgid "You are an Expert"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:152
+msgid "Evaluate Innovation sotries based on your interests."
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:153
+#: .\stories\templates\classroom\introduction.html:171
+msgid "Thank you for joining us."
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:170
+msgid "If you are new to Innovation Stories, get started"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:175
+msgid "Get started"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:53
+#: .\stories\templates\classroom\students\board\contenu.html:53
+#: .\stories\templates\classroom\students\board\dates.html:53
+#: .\stories\templates\classroom\students\board\enjeu.html:53
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:53
+#: .\stories\templates\classroom\students\board\forms-basic.html:53
+#: .\stories\templates\classroom\students\board\index.html:53
+#: .\stories\templates\classroom\students\board\information.html:61
+#: .\stories\templates\classroom\students\board\tables-basic.html:53
+#: .\stories\templates\classroom\students\board\terms.html:53
+#: .\stories\templates\classroom\students\case_change_form.html:53
+#: .\stories\templates\classroom\students\case_delete_confirm.html:53
+#: .\stories\templates\classroom\students\case_form_display.html:53
+#: .\stories\templates\classroom\teachers\board\forms.html:54
+#: .\stories\templates\classroom\teachers\board\index.html:53
+#: .\stories\templates\classroom\teachers\board\tables-basic.html:53
+#: .\stories\templates\classroom\teachers\board\takens.html:53
+#: .\stories\templates\classroom\teachers\board\terms_teacher.html:53
+#: .\stories\templates\classroom\teachers\case_delete_confirm.html:53
+#: .\stories\templates\classroom\teachers\publier.html:53
+msgid "Fonctions"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:57
+#: .\stories\templates\classroom\students\board\contenu.html:57
+#: .\stories\templates\classroom\students\board\dates.html:57
+#: .\stories\templates\classroom\students\board\enjeu.html:57
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:57
+#: .\stories\templates\classroom\students\board\forms-basic.html:57
+#: .\stories\templates\classroom\students\board\index.html:57
+#: .\stories\templates\classroom\students\board\information.html:65
+#: .\stories\templates\classroom\students\board\tables-basic.html:57
+#: .\stories\templates\classroom\students\board\terms.html:57
+#: .\stories\templates\classroom\students\case_change_form.html:57
+#: .\stories\templates\classroom\students\case_delete_confirm.html:57
+#: .\stories\templates\classroom\students\case_form_display.html:57
+msgid "Create your Cases"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:59
+#: .\stories\templates\classroom\students\board\contenu.html:59
+#: .\stories\templates\classroom\students\board\dates.html:59
+#: .\stories\templates\classroom\students\board\enjeu.html:59
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:59
+#: .\stories\templates\classroom\students\board\forms-basic.html:59
+#: .\stories\templates\classroom\students\board\index.html:59
+#: .\stories\templates\classroom\students\board\information.html:67
+#: .\stories\templates\classroom\students\board\tables-basic.html:59
+#: .\stories\templates\classroom\students\board\terms.html:59
+#: .\stories\templates\classroom\students\case_change_form.html:59
+#: .\stories\templates\classroom\students\case_delete_confirm.html:59
+#: .\stories\templates\classroom\students\case_form_display.html:59
+msgid "Create Case "
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:64
+#: .\stories\templates\classroom\students\board\contenu.html:64
+#: .\stories\templates\classroom\students\board\dates.html:64
+#: .\stories\templates\classroom\students\board\enjeu.html:64
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:64
+#: .\stories\templates\classroom\students\board\forms-basic.html:64
+#: .\stories\templates\classroom\students\board\index.html:64
+#: .\stories\templates\classroom\students\board\information.html:72
+#: .\stories\templates\classroom\students\board\tables-basic.html:64
+#: .\stories\templates\classroom\students\board\terms.html:64
+#: .\stories\templates\classroom\students\case_change_form.html:64
+#: .\stories\templates\classroom\students\case_delete_confirm.html:64
+#: .\stories\templates\classroom\students\case_form_display.html:64
+msgid "Your Cases in progress"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:69
+#: .\stories\templates\classroom\students\board\contenu.html:69
+#: .\stories\templates\classroom\students\board\dates.html:69
+#: .\stories\templates\classroom\students\board\enjeu.html:69
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:69
+#: .\stories\templates\classroom\students\board\forms-basic.html:69
+#: .\stories\templates\classroom\students\board\index.html:69
+#: .\stories\templates\classroom\students\board\information.html:77
+#: .\stories\templates\classroom\students\board\tables-basic.html:69
+#: .\stories\templates\classroom\students\board\terms.html:69
+#: .\stories\templates\classroom\students\case_change_form.html:69
+#: .\stories\templates\classroom\students\case_delete_confirm.html:69
+#: .\stories\templates\classroom\students\case_form_display.html:69
+msgid "Data Table"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:82
+#: .\stories\templates\classroom\students\board\contenu.html:82
+#: .\stories\templates\classroom\students\board\dates.html:82
+#: .\stories\templates\classroom\students\board\enjeu.html:82
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:82
+#: .\stories\templates\classroom\students\board\forms-basic.html:82
+#: .\stories\templates\classroom\students\board\index.html:82
+#: .\stories\templates\classroom\students\board\information.html:90
+#: .\stories\templates\classroom\students\board\tables-basic.html:82
+#: .\stories\templates\classroom\students\board\terms.html:82
+#: .\stories\templates\classroom\students\case_change_form.html:82
+#: .\stories\templates\classroom\students\case_delete_confirm.html:82
+#: .\stories\templates\classroom\students\case_form_display.html:82
+msgid "Deadlines"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:84
+#: .\stories\templates\classroom\students\board\contenu.html:84
+#: .\stories\templates\classroom\students\board\dates.html:84
+#: .\stories\templates\classroom\students\board\enjeu.html:84
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:84
+#: .\stories\templates\classroom\students\board\forms-basic.html:84
+#: .\stories\templates\classroom\students\board\index.html:84
+#: .\stories\templates\classroom\students\board\information.html:92
+#: .\stories\templates\classroom\students\board\tables-basic.html:84
+#: .\stories\templates\classroom\students\board\terms.html:84
+#: .\stories\templates\classroom\students\case_change_form.html:84
+#: .\stories\templates\classroom\students\case_delete_confirm.html:84
+#: .\stories\templates\classroom\students\case_form_display.html:84
+msgid "Dates"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:90
+#: .\stories\templates\classroom\students\board\contenu.html:90
+#: .\stories\templates\classroom\students\board\dates.html:90
+#: .\stories\templates\classroom\students\board\enjeu.html:90
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:90
+#: .\stories\templates\classroom\students\board\forms-basic.html:90
+#: .\stories\templates\classroom\students\board\index.html:90
+#: .\stories\templates\classroom\students\board\information.html:98
+#: .\stories\templates\classroom\students\board\tables-basic.html:90
+#: .\stories\templates\classroom\students\board\terms.html:90
+#: .\stories\templates\classroom\students\case_change_form.html:90
+#: .\stories\templates\classroom\students\case_delete_confirm.html:90
+#: .\stories\templates\classroom\students\case_form_display.html:90
+msgid "How To find Data"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:92
+#: .\stories\templates\classroom\students\board\contenu.html:92
+#: .\stories\templates\classroom\students\board\dates.html:92
+#: .\stories\templates\classroom\students\board\enjeu.html:92
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:92
+#: .\stories\templates\classroom\students\board\forms-basic.html:92
+#: .\stories\templates\classroom\students\board\index.html:92
+#: .\stories\templates\classroom\students\board\information.html:100
+#: .\stories\templates\classroom\students\board\tables-basic.html:92
+#: .\stories\templates\classroom\students\board\terms.html:92
+#: .\stories\templates\classroom\students\case_change_form.html:92
+#: .\stories\templates\classroom\students\case_delete_confirm.html:92
+#: .\stories\templates\classroom\students\case_form_display.html:92
+msgid "References and Information"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:97
+#: .\stories\templates\classroom\students\board\contenu.html:97
+#: .\stories\templates\classroom\students\board\dates.html:97
+#: .\stories\templates\classroom\students\board\enjeu.html:97
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:97
+#: .\stories\templates\classroom\students\board\forms-basic.html:97
+#: .\stories\templates\classroom\students\board\index.html:97
+#: .\stories\templates\classroom\students\board\information.html:105
+#: .\stories\templates\classroom\students\board\tables-basic.html:97
+#: .\stories\templates\classroom\students\board\terms.html:97
+#: .\stories\templates\classroom\students\case_change_form.html:97
+#: .\stories\templates\classroom\students\case_delete_confirm.html:97
+#: .\stories\templates\classroom\students\case_form_display.html:97
+msgid "Example"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:104
+#: .\stories\templates\classroom\students\board\contenu.html:104
+#: .\stories\templates\classroom\students\board\dates.html:104
+#: .\stories\templates\classroom\students\board\enjeu.html:104
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:104
+#: .\stories\templates\classroom\students\board\forms-basic.html:104
+#: .\stories\templates\classroom\students\board\index.html:104
+#: .\stories\templates\classroom\students\board\information.html:112
+#: .\stories\templates\classroom\students\board\tables-basic.html:104
+#: .\stories\templates\classroom\students\board\terms.html:104
+#: .\stories\templates\classroom\students\case_change_form.html:104
+#: .\stories\templates\classroom\students\case_delete_confirm.html:104
+#: .\stories\templates\classroom\students\case_form_display.html:104
+#: .\stories\templates\classroom\teachers\board\forms.html:76
+#: .\stories\templates\classroom\teachers\board\index.html:75
+#: .\stories\templates\classroom\teachers\board\tables-basic.html:75
+#: .\stories\templates\classroom\teachers\board\takens.html:69
+#: .\stories\templates\classroom\teachers\board\terms_teacher.html:75
+#: .\stories\templates\classroom\teachers\case_delete_confirm.html:75
+#: .\stories\templates\classroom\teachers\publier.html:75
+msgid "Terms Of Use"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:182
+#: .\stories\templates\classroom\students\board\contenu.html:182
+#: .\stories\templates\classroom\students\board\dates.html:182
+#: .\stories\templates\classroom\students\board\enjeu.html:182
+#: .\stories\templates\classroom\students\board\evaluation_resultat.html:182
+#: .\stories\templates\classroom\students\board\forms-basic.html:182
+#: .\stories\templates\classroom\students\board\index.html:182
+#: .\stories\templates\classroom\students\board\information.html:190
+#: .\stories\templates\classroom\students\board\tables-basic.html:182
+#: .\stories\templates\classroom\students\board\terms.html:182
+#: .\stories\templates\classroom\students\case_change_form.html:182
+#: .\stories\templates\classroom\students\case_delete_confirm.html:182
+#: .\stories\templates\classroom\students\case_form_display.html:182
+msgid "Logout"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:279
+#: .\stories\templates\classroom\students\board\comite.html:314
+#: .\stories\templates\classroom\students\board\enjeu.html:279
+#: .\stories\templates\classroom\students\board\enjeu.html:314
+msgid " Innovation Stories "
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:282
+#: .\stories\templates\classroom\students\board\enjeu.html:282
+msgid " Contenu"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:316
+#: .\stories\templates\classroom\students\board\enjeu.html:316
+msgid "Quel est l’enjeu ? "
+msgstr "What's at stake "
+
+#: .\stories\templates\classroom\students\board\comite.html:344
+#: .\stories\templates\classroom\students\board\enjeu.html:344
+msgid "Innovation Stories"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:346
+#: .\stories\templates\classroom\students\board\enjeu.html:346
+msgid "Comité de publication"
+msgstr "Publication Committee"
+
+#: .\stories\templates\classroom\students\board\comite.html:372
+#: .\stories\templates\classroom\students\board\enjeu.html:372
+msgid " Innovation Stories"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:374
+#: .\stories\templates\classroom\students\board\enjeu.html:374
+msgid " Exemples"
+msgstr "Examples"
+
+#: .\stories\templates\classroom\students\board\comite.html:393
+#: .\stories\templates\classroom\students\board\enjeu.html:393
+msgid "Student"
+msgstr "Étudiant"
+
+#: .\stories\templates\classroom\students\board\comite.html:430
+msgid "Un comité de publication constitué d’experts internationaux "
+msgstr "A publication committee made up of international experts"
+
+#: .\stories\templates\classroom\students\board\comite.html:435
+#: .\stories\templates\classroom\students\board\enjeu.html:435
+msgid ""
+" Le site InnovationStories est une communauté souhaitant diffuser des "
+"exemples d’innovation pour aider le grand public, les enseignants, les "
+"professeurs et les praticiens à mieux comprendre ce domaine."
+msgstr "The InnovationStories website is a community wishing to disseminate "InnovationStories".
+"examples of innovation to help the general public, teachers, "
+"teachers and practitioners to better understand this field."
+
+#: .\stories\templates\classroom\students\board\comite.html:443
+msgid ""
+"Tous les exemples publiés sur InnovationStories ont été validés par un au "
+"moins des experts de notre comité : "
+msgstr "All the examples published on InnovationStories have been validated by an au "
+"minus the experts on our committee. "
+
+#: .\stories\templates\classroom\students\board\comite.html:445
+msgid ""
+" Vincent BOLY: Professeur à l’Ecole Nationale Suppérieure en Génie des "
+"Systèmes et de l’Innovation, Nancy, France"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\comite.html:449
+msgid ""
+" Manon ENJOLRAS: Engineer and PhD in industrial engineering, my professional "
+"and research experiences focus mainly on the metrology of companies’ "
+"internal processes from a multidimensional perspective: innovation, export, "
+"industrial protection, etc. "
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\contenu.html:435
+msgid ""
+"Innovation Stories</string> est un site qui rassemble des exemples "
+"d’innovations"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\contenu.html:435
+msgid ""
+"De toute nature: produits, services, procédés, organisation ou business "
+"models."
+msgstr "Of any kind: products, services, processes, organization or business"
+
+#: .\stories\templates\classroom\students\board\contenu.html:437
+msgid " Chaque cas est décrit selon le même format :"
+msgstr "Each case is described in the same format:"
+
+#: .\stories\templates\classroom\students\board\contenu.html:441
+msgid "Un titre,"
+msgstr "Un titre,"
+
+#: .\stories\templates\classroom\students\board\contenu.html:442
+msgid "Une date clé dans les étapes de conception,"
+msgstr "A key date in the design stages"
+
+#: .\stories\templates\classroom\students\board\contenu.html:443
+msgid "Une description du produit,"
+msgstr "A description of the product,"
+
+#: .\stories\templates\classroom\students\board\contenu.html:444
+msgid "Un diagnostic de la nouveauté,"
+msgstr "A diagnosis of the novelty,"
+
+#: .\stories\templates\classroom\students\board\contenu.html:445
+msgid "Une description d’une étape clé du processus de développement,"
+msgstr "A description of a key step in the development process,"
+
+#: .\stories\templates\classroom\students\board\contenu.html:446
+msgid "La liste des références ayant permis d’établir l’étude de cas."
+msgstr "The list of references that established the case study."
+
+#: .\stories\templates\classroom\students\board\enjeu.html:430
+msgid "Proposer une nouvelle étude de cas : quel est l’enjeu ? "
+msgstr "Proposing a new case study: what is at stake?"
+
+#: .\stories\templates\classroom\students\board\enjeu.html:442
+msgid "Chacun peut proposer une fiche descriptive d’un cas d’innovation "
+msgstr "Anyone can propose a descriptive sheet of an innovation case."
+
+#: .\stories\templates\classroom\students\board\enjeu.html:444
+msgid ""
+"Et pour garantir le haut niveau d’expertise du site InnovationStories, "
+"chaque cas doit reposer sur des références bibliographiques fiables"
+msgstr "And to ensure the high level of expertise of the InnovationStories site, "
+"each case must be based on reliable bibliographical references."
+
+#: .\stories\templates\classroom\students\board\enjeu.html:445
+msgid " De plus, chaque auteur bénéficie de l’analyse critique d’experts."
+msgstr "In addition, each author benefits from the critical analysis of experts."
+
+#: .\stories\templates\classroom\students\board\enjeu.html:447
+msgid ""
+"Finalement un jury décide de la publication finale des propositions sur la "
+"plateforme InnovationStories accessible via internet. "
+msgstr "Finally a jury decides on the final publication of the proposals on the "
+" InnovationStories platform accessible via internet. "
+
+#: .\stories\templates\classroom\students\board\enjeu.html:449
+msgid "Votre nom d’auteur apparaitra sur la fiche mise en ligne. "
+msgstr "Your author's name will appear on the online form."
+
+#: .\stories\templates\classroom\students\board\enjeu.html:450
+msgid ""
+"Alors: au travail, propose une étude de cas et entre dans la communauté de "
+"l’innovation."
+msgstr "So: go to work, propose a case study and enter the community of "
+"innovation."
+
+#: .\stories\templates\classroom\students\board\information.html:240
+msgid "References & Information"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:270
+msgid "Voici une liste non exhaustive des revues à consulter :"
+msgstr "Here is a non-exhaustive list of journals to consult:"
+
+#: .\stories\templates\classroom\students\board\information.html:299
+msgid "Journal of product innovation management"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:300
+msgid "Technovation"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:301
+msgid "World patent information"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:302
+msgid "Design studies"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:303
+msgid "Journal of Innovation Economics & Management"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:304
+msgid "Journal of Technology Management & Innovation"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:305
+msgid "International Journal of Technology Management."
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:306
+msgid "International Journal of Industrial Ergonomics,"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:307
+msgid "International Journal of Innovation and Applied Studies"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:308
+msgid "International Journal of Product Development"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:309
+msgid "International Journal of Business Innovation and Research"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\information.html:310
+msgid ""
+"International journal of new product development & innovation management"
+msgstr ""
+
+#: .\stories\templates\classroom\students\board\terms.html:240
+#: .\stories\templates\classroom\teachers\board\terms_teacher.html:214
+msgid "Terms and Conditions"
+msgstr ""
+
+#: .\stories\templates\classroom\teachers\board\forms.html:60
+#: .\stories\templates\classroom\teachers\board\index.html:59
+#: .\stories\templates\classroom\teachers\board\tables-basic.html:59
+#: .\stories\templates\classroom\teachers\board\takens.html:59
+#: .\stories\templates\classroom\teachers\board\terms_teacher.html:59
+#: .\stories\templates\classroom\teachers\case_delete_confirm.html:59
+#: .\stories\templates\classroom\teachers\publier.html:59
+msgid "Case studies"
+msgstr ""
+
+#: .\stories\templates\classroom\teachers\board\forms.html:67
+#: .\stories\templates\classroom\teachers\board\index.html:66
+#: .\stories\templates\classroom\teachers\board\tables-basic.html:66
+#: .\stories\templates\classroom\teachers\board\takens.html:66
+#: .\stories\templates\classroom\teachers\board\terms_teacher.html:66
+#: .\stories\templates\classroom\teachers\case_delete_confirm.html:66
+#: .\stories\templates\classroom\teachers\publier.html:66
+msgid "Guidelines"
+msgstr ""
+
+#: .\stories\templates\classroom\teachers\board\index.html:201
+#: .\stories\templates\classroom\teachers\publier.html:201
+msgid "Expert"
+msgstr ""
+
+#: .\stories\templates\classroom\teachers\board\index.html:238
+#: .\stories\templates\classroom\teachers\publier.html:238
+msgid "Procedure"
+msgstr ""

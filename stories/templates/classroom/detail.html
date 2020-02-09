@@ -1,0 +1,305 @@
+{%load static%}
+{% load i18n %}
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Colorlib">
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
+    <!-- Page Title -->
+    <title>Stories research</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'Introduction/home/css/bootstrap.min.css' %}">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <!-- Simple line Icon -->
+    <link rel="stylesheet" href="{% static 'Introduction/home/css/simple-line-icons.css' %}">
+    <!-- Themify Icon -->
+    <link rel="stylesheet" href="{% static 'Introduction/home/css/themify-icons.css' %}">
+    <!-- Hover Effects -->
+    <link rel="stylesheet" href="{% static 'Introduction/home/css/set1.css' %}">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{% static 'Introduction/home/css/style.css' %}">
+</head>
+
+<body>
+    <!--============================= HEADER =============================-->
+    <div class="nav-menu">
+        <div class="bg transition">
+            <div class="container-fluid fixed">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                                <header id="header" class="alt">
+                                        <a href="{% url 'Introduction' %}" class="logo"><strong>Innovation</strong><span style="color: aliceblue;">Stories</span></a>
+                                </header>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-menu"></span>
+              </button>
+                            <div class="collapse navbar-collapse justify-content-end" >
+                                <ul class="navbar-nav">
+                                    
+                                    <li><a href="{% url 'Introduction' %}" class="btn btn-outline-light top-btn"><span class="ti-plus"></span>Come join us</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SLIDER -->
+    <section class="slider d-flex align-items-center">
+       <img src="{% static 'Introduction/home/images/slider.jpg" class="img-fluid" alt="#"> 
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="slider-title_box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slider-content_wrap">
+                                    <h1>Discover the best innovative stories in The World </h1>
+                                    <h5>Let's uncover the best stories, you can search by Case Study, Process, Subject...</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+
+                                    {% load widget_tweaks %}
+                              
+                                    <form method="get">
+                                            <div class="well">
+                                            <div class="well">
+                                             
+                                              <div class="row">
+                                                <div class="form-group col-sm-4 col-md-3">
+                                                        <h6 style="margin-top: 0; color: aliceblue;">Story</h6>
+                                                  {% render_field filter.form.title_case class="form-control" %}
+                                                  <h4 style="margin-top: 0"></h4>
+                                                </div>
+                                                <div class="form-group col-sm-4 col-md-3">
+                                                        <h6 style="margin-top: 0; color: aliceblue;">Process</h6>
+                                                  {% render_field filter.form.processus class="form-control" %}
+                                                  <h4 style="margin-top: 0"></h4>
+                                                </div>
+                                                <div class="form-group col-sm-4 col-md-3">
+                                                        <h6 style="margin-top: 0; color: aliceblue;">Subject</h6>
+                                                  {% render_field filter.form.subject class="form-control" %}
+                                                  <h4 style="margin-top: 0"></h4>
+                                                </div>
+                                                <div class="form-group col-sm-4 col-md-3">
+                                                        <h6 style="margin-top: 0; color: aliceblue;">Month</h6>
+                                                        {% render_field filter.form.mois class="form-control" %}
+                                                        <h4 style="margin-top: 0"></h4>
+                                                        <h4 style="margin-top: 0"></h4>
+                                                      </div>
+                                            </div>
+                                                        
+                                            <button type="submit" class="btn-form"><span class="icon-magnifier search-icon"></span>SEARCH<i class="pe-7s-angle-right"></i></button>   
+                                                
+                                                            </div>
+                                              
+                                          </form>
+
+                                          <div class="row">
+                                                <div class="form-group col-sm-4 col-md-3">
+                                                  <h6 style="margin-top: 0; color: aliceblue;"></h6>
+                                                  <h4 style="margin-top: 0"></h4>
+                                                  <h6 style="margin-top: 0; color: aliceblue;"></h6>
+                                                  <h4 style="margin-top: 0"></h4>
+                                                  <h6 style="margin-top: 0; color: aliceblue;"></h6>
+                                                  <h4 style="margin-top: 0"></h4>
+                                                </div>
+                                                
+                                            </div>
+                                 
+
+
+
+                                <div class="slider-link">
+                                    <a href="#">Browse Popular</a><span>or</span> <a href="{% url 'Stories' %}">Recently Added</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--// SLIDER -->
+    <!--//END HEADER -->
+    <!--============================= FIND PLACES =============================-->
+    <section class="main-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="styled-heading">
+                        <h3>What do you need to find?</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+
+                          {% for user in filter.qs %}
+                    
+                            
+                                <div class="pricing-box  text-center">
+                                        <h5 style=" font-size: 25px;"></h5>
+                                        <h5 style=" font-size: 30px;"></h5>
+                                    <h5 style=" font-size: 20px;">{{ user.title_case }}</h5>
+                                    <p class="price"></p>
+                                    <ul class="features-list">
+                                        <li><strong></strong> {{ user.produit }}</li>
+                                        <li><strong></strong> {{ user.subject  }}</li>
+                                        <li><strong></strong> {{ user.school_case }}</li>
+                                        <li><strong></strong> {{ user.auteur}}</li>
+                                    </ul>
+                                    <form action="{% url 'students:post_detail' user.pk %}" method="get" target="_blank">
+                                        <button class="btn-primary" type="submit">Get Started</button>
+                                    </form>
+                                   
+                                </div>
+                            
+
+                    
+                        {% empty %}
+  
+                        <p class="text-center">  No data are availbe about this Case Study</p>   
+                                 
+                          
+
+
+                           {% endfor %}
+
+
+
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//END FIND PLACES -->
+    <!--============================= FEATURED PLACES =============================-->
+ 
+    <!--//END FEATURED PLACES -->
+    <!--============================= CATEGORIES =============================-->
+   
+    <!--//END CATEGORIES -->
+    <!--============================= ADD LISTING =============================-->
+    <section class="main-block light-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="add-listing-wrap">
+                        <h2>Reach millions of Stories</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="featured-btn-wrap">
+                        <a href="{% url 'students:students_home' %}" class="btn btn-danger"><span class="ti-plus"></span> ADD STORIES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//END ADD LISTING -->
+    <!--============================= FOOTER =============================-->
+    <footer class="main-block dark-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <p>Copyright &copy; ERPI 2019. All rights reserved | This template is designed with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <ul>
+                            <li><a href="#"><span class="ti-facebook"></span></a></li>
+                            <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
+                            <li><a href="#"><span class="ti-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--//END FOOTER -->
+
+
+
+
+    <!-- jQuery, Bootstrap JS. -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{% static 'Introduction/home/js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'Introduction/home/js/popper.min.js' %}"></script>
+    <script src="{% static 'Intrroduction/home/js/bootstrap.min.js' %}"></script>
+
+    <script>
+        $(window).scroll(function() {
+            // 100 = The point you would like to fade the nav in.
+
+            if ($(window).scrollTop() > 100) {
+
+                $('.fixed').addClass('is-sticky');
+
+            } else {
+
+                $('.fixed').removeClass('is-sticky');
+
+            };
+        });
+    </script>
+</body>
+
+</html>
+
+
+      
+                  <!-- ============================================-->
+                  <!-- <section> begin ============================-->
+                    <section class="pt-5 pt-xl-7 pt-xxl-8">    
+                        <div class="container-fluid">
+                          <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                              <div class="text-center mb-5 mb-lg-6">
+                                <h2 class="fs-2 fs-sm-3"> <span class="font-weight-medium">What We </span> Do best</h2>
+                                <hr class="hr-ornate" />
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4 mb-xl-0">
+                                  <img class="mb-3" src="{% static 'Board/assets/img/icons/cloud.svg' %}" alt="" width="100" />
+                                  <h5 class="text-uppercase">Application</h5>
+                                  <p class="pr-xxl-5">Having the shortest possible delay between idea and launch is crucial in business.</p>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4 mb-xl-0">
+                                  <img class="mb-3" src="{% static 'Board/assets/img/icons/brush.svg' %}" alt="" width="100" />
+                                  <h5 class="text-uppercase">Design</h5>
+                                  <p class="pr-xxl-5">Our unique tools design grahphics &amp; HTML5 templates 4X faster than our rivals.</p>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4 mb-xl-0">
+                                  <img class="mb-3" src="{% static 'Board/assets/img/icons/coffe.svg' %}" alt="" width="100" />
+                                  <h5 class="text-uppercase">Development</h5>
+                                  <p class="pr-xxl-5">Our award-winning team follow industry best practices to develop software.</p>
+                                </div>
+                            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end of .container-->
+          
+                      </section>
+                      <!-- <section> close ============================-->
+                      <!-- ============================================-->
+          

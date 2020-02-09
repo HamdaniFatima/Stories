@@ -1,0 +1,613 @@
+
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Introduction</title>
+        
+<!-- 
+
+Sentra Template
+
+https://templatemo.com/tm-518-sentra
+
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="{% static 'Introduction/Temp_518/apple-touch-icon.png' %}">
+
+        <link rel="stylesheet" href="{% static 'Introduction/Temp_518/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'Introduction/Temp_518/css/bootstrap-theme.min.css' %}">
+        <link rel="stylesheet" href="{% static 'Introduction/Temp_518/css/fontAwesome.css' %}">
+        <link rel="stylesheet" href="{% static 'Introduction/Temp_518/css/light-box.css' %}">
+        <link rel="stylesheet" href="{% static 'Introduction/Temp_518/css/owl-carousel.css' %}">
+        <link rel="stylesheet" href="{% static 'Introduction/Temp_518/css/templatemo-style.css'%}">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="{% static 'Introduction/Temp_518/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+    </head>
+
+<body>
+
+
+
+        <header class="nav-down responsive-nav hidden-lg hidden-md">
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--/.navbar-header-->
+            <div id="main-nav" class="collapse navbar-collapse">
+                <nav>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#projects">Other Projects</a></li>
+                        <li><a href="#video">Presentation</a></li>
+                        <li><a href="#blog">Best OF</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="sidebar-navigation hidde-sm hidden-xs">
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#top">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#featured">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Featured
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                           Projetcs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#video">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Presentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blog">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Best Of
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="social-icons">
+                <li><a href="https://www.ensgsi.univ-lorraine.fr/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/ensgsi?lang=fr"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://fr.linkedin.com/school/ecole-nationale-sup%C3%A9rieure-en-g%C3%A9nie-des-syst%C3%A8mes-et-de-l%27innovation-ensgsi-/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="slider">
+            <div class="Modern-Slider content-section" id="top">
+                <!-- Item -->
+                <div class="item item-1">
+                    <div class="img-fill">
+                    <div class="image"></div>
+                    <div class="info">
+                        <div>
+                          <h1>{% trans "The World Best Innovation Stories" %}<br>{% trans "Plate-forme" %}</h1>
+                          <p>{% trans "Innovation Stories is a free collaborative platform for easily creating," %}<br>
+                            {% trans "and consulting innovation case studies." %} </p>
+                          <div class="white-button button">
+                              <a href="#featured">Discover More</a>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+           
+
+
+
+
+                <!-- // Item -->
+                <!-- Item -->
+                <div class="item item-2">
+                    <div class="img-fill">
+                        <div class="image"></div>
+                        <div class="info">
+                        <div>
+                          <h1>{% trans "You are an Expert" %}</h1>
+                          <p> {% trans "Evaluate Innovation sotries based on your interests." %}
+							<br>{% trans "Thank you for joining us." %}</p>
+                          
+                          <div class="white-button button">
+                              <a href="{% url 'login' %}">Join Us</a>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Item -->
+                <!-- Item -->
+                <div class="item item-3">
+                    <div class="img-fill">
+                        <div class="image"></div>
+                        <div class="info">
+                        <div>
+                          <h1>{% trans "You are a Student" %}</h1>
+                          <p>{% trans "If you are new to Innovation Stories, get started" %}.
+                                <br>{% trans "Thank you for joining us." %}</p>
+                            </p>
+                          
+                          <div class="white-button button">
+                              <a href="{% url 'students:students_home' %}">{% trans "Get started" %}</a>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Item -->
+            </div>
+        </div>
+
+
+        <div class="page-content">
+            <section id="featured" class="content-section">
+                <div class="section-heading">
+                    <h1>    Want to know more <br><em> About Us</em></h1>
+                 
+                </div>
+                <div class="section-content">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="image">
+                                <img  style="width: 100%; height:340px  ;" 
+                                src="{% static 'Introduction/Temp_518/img/vincent.jpg'%}" alt="">
+                                <div class="featured-button button">
+                                    <a href="https://erpi.univ-lorraine.fr/fr/people/Vincent-Boly/">Continue Reading</a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                
+                         
+                                <h4>Vincent Boly</h4>
+                                <span>University Professor </span>
+                                <p>Expert in innovation management. Interested in need analysis, perspectives, innovation capability...</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img  style="width: 100%; height:340px ;"  src= "{% static 'Introduction/Temp_518/img/pic_2.jpg' %}"alt="">
+                                <div class="featured-button button">
+                                    <a href="https://erpi.univ-lorraine.fr/people/Manon-Enjolras/">Continue Reading</a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <h4>Manon ENJOLRAS</h4>
+                                <span>Engineer and PhD</span>
+                                <p>Intersted in innovation management, decision making, Multicriteria analysis, internationalization...</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img style="width: 100%; height:340px  ;" src= "{% static 'Introduction/Temp_518/img/pic_2.jpg' %}" alt="">
+                                <div class="featured-button button">
+                                    <a href="https://erpi.univ-lorraine.fr/people/Fatima/">Continue Reading</a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <h4>Fatima-Ez HAMDANI</h4>
+                                <span>Engineer and PhD</span>
+                                <p>Intersted in Operational Research, decision making, Stochastic modeling, Artificial intelligence...</p>
+                            </div>
+                        </div>
+                </div>
+            </section>
+            <section id="projects" class="content-section">
+                <div class="section-heading">
+                    <h1>Other<br><em>Projects</em></h1>
+                    <p>Praese
+                        
+                        
+                        
+                        
+                        
+                        nt pellentesque efficitur magna, 
+                    <br>sed pellentesque neque malesuada vitae.</p>
+                </div>
+                <div class="section-content">
+                    <div class="masonry">
+                        <div class="row">
+                            <div class="item">
+                                <div class="col-md-8">
+                                    <a href=" " data-lightbox="image"><img src="{% static 'Introduction/Temp_518/img/48h2019.jpg' %}" alt="image 1"></a>
+                                </div>
+                            </div>
+                            <div class="item second-item">
+                                <div class="col-md-4">
+                                    <a href=" " data-lightbox="image"><img src="{% static 'Introduction/Temp_518/img/72.jpg' %}" alt="image 2"></a>
+                                </div>
+                            </div>
+                        
+                          
+                         
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section id="video" class="content-section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h1>Innovation Stories Presentation.</h1>
+                         
+                        </div>
+                        <div class="text-content">
+                            <p>In eget ipsum sed lorem vehicula luctus. Curabitur non dolor rhoncus, hendrerit justo sit amet, vestibulum turpis. Pellentesque id auctor tellus, vel ultricies augue. Duis condimentum aliquet blandit. Fusce rhoncus et eros ut pharetra. Phasellus convallis ultricies ligula ac gravida.</p>
+                        </div>
+                        <div class="accent-button button">
+                            <a href="#blog">Continue Reading</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="box-video">
+                            <div class="bg-video" style="background-image: url(https://unsplash.imgix.net/photo-1425036458755-dc303a604201?fit=crop&fm=jpg&q=75&w=1000);">
+                                <div class="bt-play">Play</div>
+                            </div>
+                            <div class="video-container">
+                                <iframe width="100%" height="520" src="https://www.youtube.com/embed/j-_7Ub-Zkow?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="blog" class="content-section">
+                <div class="section-heading">
+                    <h1>Best<br><em>Of Stories</em></h1>
+                    <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum. 
+                    <br>Phasellus luctus odio eget dui imperdiet.</p>
+                </div>
+                <div class="section-content">
+                    <div class="tabs-content">
+                        <div class="wrapper">
+                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                              <li><a href="#tab1" class="active">July 2018</a></li>
+                              <li><a href="#tab2">June 2018</a></li>
+                              <li><a href="#tab3">May 2018</a></li>
+                              <li><a href="#tab4">April 2018</a></li>
+                            </ul>
+                            <section id="first-tab-group" class="tabgroup">
+                                <div id="tab1">
+                                    <ul>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Integer ultrices augue</h4>
+                                                    <span>25 July 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Cras commodo odio ut</h4>
+                                                    <span>16 July 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Sed at massa turpis</h4>
+                                                    <span>10 July 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="tab2">
+                                    <ul>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Sed at massa turpis</h4>
+                                                    <span>30 June 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_1.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Lorem ipsum dolor sit</h4>
+                                                    <span>24 June 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Cras commodo odio ut</h4>
+                                                    <span>12 June 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="tab3">
+                                    <ul>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Cras commodo odio ut</h4>
+                                                    <span>26 May 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Lorem ipsum dolor sit</h4>
+                                                    <span>22 May 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Integer ultrices augue</h4>
+                                                    <span>8 May 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="tab4">
+                                    <ul>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}"alt="">
+                                                <div class="text-content">
+                                                    <h4>Lorem ipsum dolor sit</h4>
+                                                    <span>26 April 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>                                
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Integer ultrices augue eu</h4>
+                                                    <span>24 April 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item">
+                                                <img src="{% static 'Introduction/Temp_518/img/blog_3.jpg' %}" alt="">
+                                                <div class="text-content">
+                                                    <h4>Cras commodo odio ut</h4>
+                                                    <span>20 April 2018</span>
+                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
+                                                    
+                                                    <div class="accent-button button">
+                                                        <a href="#contact">Continue Reading</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="content-section">
+                <div id="map">
+                
+                	<!-- How to change your own map point
+                           1. Go to Google Maps
+                           2. Click on your location point
+                           3. Click "Share" and choose "Embed map" tab
+                           4. Copy only URL and paste it within the src="" field below
+                    -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.549262538899!2d6.1914682156685945!3d48.69498177927176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794983fc320d4b5%3A0xb05f011bc8e53da5!2sENSGSI%20-%20Groupe%20INP!5e0!3m2!1sfr!2sfr!4v1575649017554!5m2!1sfr!2sfr" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                 
+                
+                </div>
+                <div id="contact-content">
+                    <div class="section-heading">
+                        <h1>Contact<br><em>ENSGSI</em></h1>
+                        <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum. 
+                        <br>Phasellus luctus odio eget dui imperdiet.</p>
+                        
+                    </div>
+                    <div class="section-content">
+                        <form id="contact" action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-4">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                  </fieldset>
+                                </div>
+                                 <div class="col-md-4">
+                                  <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="footer">
+                <p>Copyright &copy; 2019 ERPI (Research team on innovation process)
+                
+                . Design: TemplateMo</p>
+            </section>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="{% static 'Introduction/Temp_518/js/vendor/bootstrap.min.js"></script>
+    
+    <script src="{% static 'Introduction/Temp_518/js/plugins.js'%}"></script>
+    <script src="{% static 'Introduction/Temp_518/js/main.js'%}"></script>
+
+    <script>
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+            
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $('header').removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if(st + $(window).height() < $(document).height()) {
+                    $('header').removeClass('nav-up').addClass('nav-down');
+                }
+            }
+            
+            lastScrollTop = st;
+        }
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+</body>
+</html>

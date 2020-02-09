@@ -1,0 +1,11 @@
+Django==2.2.7
+django-crispy-forms==1.7.0
+pytz==2017.3
+django-richtextfield==1.2.1
+django-tinymce==2.8.0
+pip install django-filter
+ 
+
+pwd
+git clone "web    "
+mkvritualenv -- pyton

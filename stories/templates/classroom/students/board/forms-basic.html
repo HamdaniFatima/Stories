@@ -1,0 +1,335 @@
+{% load static %}
+{% load i18n %}
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Student Board</title>
+    <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="{%  static 'Students/Dashboard/vendors/bootstrap/dist/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{%  static 'Students/Dashboard/vendors/font-awesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{%  static 'Students/Dashboard/vendors/themify-icons/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{%  static 'Students/Dashboard/vendors/flag-icon-css/css/flag-icon.min.css' %}">
+    <link rel="stylesheet" href="{%  static 'Students/Dashboard/vendors/selectFX/css/cs-skin-elastic.css' %}">
+    <link rel="stylesheet" href="{%  static 'Students/Dashboard/vendors/jqvmap/dist/jqvmap.min.css '%}">
+    <link rel="stylesheet" href="{%  static 'Students/Dashboard/assets/css/style.css' %}">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+
+    <!-- Left Panel -->
+
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
+
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./"><img src="" alt=" Student Board"></a>
+                <a class="navbar-brand hidden" href="./"><img src="{%  static 'Students/Dashboard/images/logo2.png'%}" alt="Logo"></a>
+            </div>
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                            <a href="{% url 'students:students_borad' %}"> <i class="menu-icon fa fa-dashboard"></i>{% trans "How it Works"  %} </a>
+                    </li>
+                    <h3 class="menu-title">{% trans "Fonctions"  %}</h3><!-- /.menu-title -->
+                    <!----------------------------------------------------->
+                      <!-----------------------Tables .html-->
+                        <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>{% trans "Create your Cases"  %}</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-table"></i><a href="{% url 'students:case_add' %}">{% trans "Create Case "  %}</a></li>
+                     
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>{% trans "Your Cases in progress"  %}</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <!------------------------------------------------>
+                            <!-----------forms-basic.html------------>
+                            
+                            <li><i class="menu-icon fa fa-th"></i><a href="{% url 'students:table_list' %}">{% trans "Data Table"  %}</a></li>
+                         
+                            <!---------------------------------------------->
+                        </ul>
+                    </li>  
+                    
+                    <!---------------------------Extra pgaes -->
+                    <h3 class="menu-title">Guidelines</h3><!-- /.menu-title -->
+
+
+
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>{% trans "Deadlines"  %}</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="{% url 'students:dates_list' %}">{% trans "Dates"  %}</a></li>
+                    
+                        </ul>
+                    </li>
+               
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>{% trans "How To find Data"  %}</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="{% url 'students:info_list' %}">{% trans "References and Information"  %} </a></li>
+                    
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>{% trans "Example"  %}</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="{% static 'Students/fiche_EXEMPLE.pdf'%}">Boeing 777</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>{% trans "Terms Of Use"  %}</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="{% url 'students:terms_list' %}">Terms and Conditions</a></li>
+                    
+                        </ul>
+                    </li>
+               
+
+                  
+            
+             
+                     
+              
+                
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </aside><!-- /#left-panel -->
+
+    <!-- Left Panel -->
+
+    <!-- Right Panel -->
+
+    <div id="right-panel" class="right-panel">
+
+        <!-- Header-->
+        <header id="header" class="header">
+
+            <div class="header-menu">
+
+                <div class="col-sm-7">
+                    <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
+                    <div class="header-left">
+                        <button class="search-trigger"><i class="fa fa-search"></i></button>
+                        <div class="form-inline">
+                            <form class="search-form">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search ..." aria-label="Search">
+                                <button class="search-close" type="submit"><i class="fa fa-close"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="dropdown for-notification">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-bell"></i>
+                       
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="notification">
+                             
+                            
+                            </div>
+                        </div>
+
+                        <div class="dropdown for-message">
+                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                                id="message"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="ti-email"></i>
+                              
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="message">
+              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-5">
+                    <div class="user-area dropdown float-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {% if user.is_authenticated %}
+                                <p class="nav-link"><strong>{{ user.username }}</strong></p>
+                              {% else %}
+                              <p class="pt-3"><strong>User</strong></p>
+                              {% endif %}
+                        </a>
+                     
+                        <div class="user-menu dropdown-menu">
+                            
+
+                            <a class="nav-link" href="{% url 'logout' %}"><i class="fa fa-power-off"></i> {% trans "Logout"  %}</a>
+                        </div>
+                    </div>
+
+                    <div class="language-select dropdown" id="language-select">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
+                            <i class="flag-icon flag-icon-us"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="language">
+                            <div class="dropdown-item">
+                                    <a class="dropdown-toggle" href="https://www.google.com/"  aria-haspopup="true" aria-expanded="true">
+                                        <i class="flag-icon flag-icon-fr"></i>
+                                </a>
+                                
+                            </div>
+                            <div class="dropdown-item">
+                                    <a class="dropdown-toggle" href="https://www.google.com/"  aria-haspopup="true" aria-expanded="true">
+                                        <i class="flag-icon flag-icon-es"></i>
+                                </a>
+                                
+                            </div>
+                            <div class="dropdown-item">
+                                    <a class="dropdown-toggle" href="https://www.google.com/"  aria-haspopup="true" aria-expanded="true">
+                                        <i class="flag-icon flag-icon-us"></i>
+                                </a>
+                          
+                            </div>
+                            <div class="dropdown-item">
+                                    <a class="dropdown-toggle" href="https://www.google.com/"  aria-haspopup="true" aria-expanded="true">
+                                            <i class="flag-icon flag-icon-it"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header><!-- /header -->
+        <!-- Header-->
+
+        <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                  
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">Forms</a></li>
+                            <li class="active">Advanced Form</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content mt-3">
+            <div class="animated fadeIn">
+
+
+               
+                <div class="card">
+                    <div class="card-header">
+                        <strong> Create your </strong> Case Study
+                    </div>
+                    <div class="card-body card-block">
+                                                        <!-------------<form action="" method="post" class="">------->
+                                                         {% load crispy_forms_tags %}
+                                                            {% block content %}
+                                                              <nav aria-label="breadcrumb">
+                                                                <ol class="breadcrumb">
+                                                      
+                                                               <li class="breadcrumb-item active" aria-current="page">Votre fiche wiki calendar sera insérée dans un catalogue d'exemples d'innovation. Pour cela vous devez respecté le plan type de chaque fiche et rédiger un texte scientifiquement irréprochable basé que des documents de haut niveau.
+
+                                                                Vous trouverez ci après un exemple de fiche dont vous pouvez vous inspirez en terme de structure et démarche logique. Le fichier PDF vous montre l'esthétique finale de votre fiche.</li>   
+                                                                </ol>
+                                                              </nav>
+                                                              <div class="row">
+                                                                <div class="col-md-6 col-sm-8 col-12">
+                                                                  <form method="post" style="margin: 0 auto 0 auto;
+                                                                  width:730px;" enctype="multipart/form-data">
+                                                                    {% csrf_token %}
+                                                                    {{ form|crispy }}
+                                                                    <button type="submit" class="btn btn-success" style="  display: -webkit-box;
+                                                                    display: -webkit-flex;
+                                                                    display: -moz-box;
+                                                                    display: -ms-flexbox;
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    padding: 0 20px;
+                                                                    width: 50%;
+                                                                    height: 45px;
+                                                                    border-radius: 3px;
+                                                                
+                                                                    
+                                            
+                                                                     border-style: none;
+                                                                  
+                                                                    font-family: Montserrat-Bold;
+                                                                    font-size: 12px;
+                                                                    color: #fff;
+                                                                    line-height: 1.2;
+                                                                    text-transform: uppercase;
+                                                                    letter-spacing: 1px;
+                                                                  
+                                                                    -webkit-transition: all 0.4s;
+                                                                    -o-transition: all 0.4s;
+                                                                    -moz-transition: all 0.4s;
+                                                                    transition: all 0.4s;
+                                                                    font-family:Fira Sans; font-size:15px;line-height:22px;letter-spacing:0px;font-weight:700;">Save</button>
+                                                                    
+                                                                  </form>
+                                                                </div>
+                                                              </div>
+                                                            {% endblock %}
+                                                          
+                                                      <!------------</form>------fin form-->  
+                                                    </div>
+
+
+
+
+
+
+
+
+
+                                            
+                                                     
+
+                                       
+                                                </div><!-- .animated -->
+                                       
+                                        </div><!-- /#right-panel -->
+                                        <!-- Right Panel -->
+
+
+                            <script src="{% static 'Students/Dashboard/vendors/jquery/dist/jquery.min.js' %}"></script>
+                            <script src="{% static 'Students/Dashboard/vendors/popper.js/dist/umd/popper.min.js' %}"></script>
+
+                            <script src="{% static 'Students/Dashboard/vendors/jquery-validation/dist/jquery.validate.min.js' %}"></script>
+                            <script src="{% static 'Students/Dashboard/vendors/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js' %}"></script>
+
+                            <script src="{% static 'Students/Dashboard/vendors/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+                            <script src="{% static 'Students/Dashboard/assets/js/main.js' %}"></script>
+</body>
+</html>

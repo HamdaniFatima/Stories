@@ -1,0 +1,274 @@
+{%load static%}
+{% load i18n %}
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Innovation Stories</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'home/assets/css/main.css' %}" />
+		<link rel="stylesheet" href="{%  static 'Students/Dashboard/vendors/flag-icon-css/css/flag-icon.min.css' %}">
+		<noscript><link rel="stylesheet" href="% static 'home/assets/css/noscript.css'%}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="{% url 'Introduction' %}" class="logo"><strong>Innovation</strong> <span>Stories</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+							
+
+
+							<div class="language-select dropdown" >
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
+									<i class="flag-icon flag-icon-us"></i>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="language">
+									<div class="dropdown-item">
+											<a class="dropdown-toggle" href="https://www.google.com/"   aria-expanded="true">
+												<i class="flag-icon flag-icon-fr"></i>
+										</a>
+										
+									</div>
+									<div class="dropdown-item">
+											<a class="dropdown-toggle" href="https://www.google.com/"  aria-haspopup="true" aria-expanded="true">
+												<i class="flag-icon flag-icon-es"></i>
+										</a>
+										
+									</div>
+								
+									<div class="dropdown-item">
+											<a class="dropdown-toggle" href="https://www.google.com/"  aria-haspopup="true" aria-expanded="true">
+													<i class="flag-icon flag-icon-it"></i>
+											</a>
+									</div>
+								</div>
+							</div>
+
+
+
+
+							
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="{% url 'Introduction' %}">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="{% url 'Introduction' %}" class="button primary fit">Get Started</a></li>
+							<li><a href="{% url 'login' %}" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1> {% trans "The World Best Innovation Stories" %}  </h1>
+                <p>{% trans "Find <strong>Examples </strong>and Create your own case studies <strong> </strong>  " %}
+								 </p>
+							</header>
+							<div class="content">
+					
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="{% static 'home/images/13.jpg' %}" alt="" />
+									</span>
+									<header class="major">
+									<a href="{% url 'Introduction' %}" class="link"></a>
+										<!---------<p>collaborative platform</p>---------------->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="{% static 'home/images/stories.JPG' %}" alt="" />
+									</span>
+									<header class="major">
+										
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="{% static 'home/images/7.jpg'%}" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="{% url 'teacher_signup'%}" class="link">Experts</a></h3>
+										<p>join the Community</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="{% static 'home/images/4.jpg'%}" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="{% url 'Research' %}" class="link"></a>Stories</h3>
+										<p>Nisl sed aliquam</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="{% static 'home/images/11.jpg'%}" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="https://erpi.univ-lorraine.fr/" class="link">About us</a></h3>
+										<p>Research team on innovation process</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="{% static 'home/images/parll.jpg'%}" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Gallery</a></h3>
+										<p>Feugiat amet tempus</p>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Innovation Stories</h2>
+									</header>
+									<p> This Innovation <a href=""> Stories  </a> application  is a collaborative platform for easily creating, evaluating  and  consulting innovation case studies. 
+										In this application, users can sign up as a student or a expert. Students can create stories and experts can evaluate their sotries  based on their interests.
+								 
+										If you already have an account, go ahead and <a href="">log in</a>.
+										If you are new to Innovation Stories, get started
+										   by creating a <a href="{% url 'student_signup' %}"> expert account</a> or a <a href="{% url 'teacher_signup' %}"> student account</a>..</p>
+									<ul class="actions">
+										<li><a href="{% url 'Introduction' %}" class="button next">Get Started</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>ERPI Laboratory,8 Rue Bastien-Lepage, <br />
+											54000 Nancy, France </span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; 2019 ERPI Laboratory</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'home/assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'home/assets/js/jquery.scrolly.min.js' %}"></script>
+			<script src="{% static 'home/assets/js/jquery.scrollex.min.js' %}"></script>
+			<script src="{% static 'home/assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'home/assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'home/assets/js/util.js' %}"></script>
+			<script src="{% static 'home/assets/js/main.js' %}"></script>
+			<script src="{% static 'Students/Dashboard/vendors/jquery/dist/jquery.min.js' %}"></script>
+			<script src="{% static 'Students/Dashboard/vendors/popper.js/dist/umd/popper.min.js' %}"></script>
+
+			<script src="{% static 'Students/Dashboard/vendors/jquery-validation/dist/jquery.validate.min.js' %}"></script>
+			<script src="{% static 'Students/Dashboard/vendors/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js' %}"></script>
+
+			<script src="{% static 'Students/Dashboard/vendors/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+			<script src="{% static 'Students/Dashboard/assets/js/main.js' %}"></script>
+
+	</body>
+</html>
+
+
+<a
+class="video-modal btn pl-0 mt-3 mt-lg-5" href="https://vimeo.com/58558497" data-start="34" data-end="345">
+<div class="d-flex align-items-center"><span class="fa-layers fa-fw fs-4 text-danger"><i class="fas fa-circle ml-0"></i><i class="fa-inverse fas fa-play ml-0" data-fa-transform="shrink-12 right-1.5"></i></span><span class="font-weight-bold text-700 pl-1">Watch our story</span></div>
+</a>
+     
+<div class="mt-4">
+                 
+	<a
+class="video-modal btn pl-0 mt-3 mt-lg-5" href="https://vimeo.com/58558497" data-start="34" data-end="345">
+<div class="d-flex align-items-center"><span class="fa-layers fa-fw fs-4 text-danger"><i class="fas fa-circle ml-0"></i><i class="fa-inverse fas fa-play ml-0" data-fa-transform="shrink-12 right-1.5"></i></span><span class="font-weight-bold text-700 pl-1">Watch our story</span></div>
+</a>
+  </div>
